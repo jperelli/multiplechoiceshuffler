@@ -173,8 +173,16 @@ export default function Home() {
           onClick={() => {
             window.print();
           }}
+          style={{
+            padding: "10px",
+            fontSize: "1.3em",
+            background: "#7e7",
+            borderRadius: "4px",
+            marginTop: "10px",
+            cursor: "pointer",
+          }}
         >
-          Print
+          Generar Examenes / Imprimir
         </button>
       </div>
       <div className="outputs" style={{ width: "50vw" }}>
