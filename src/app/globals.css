@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .inputs {
+    display: none;
+  }
+  .outputs {
+    display: block;
+  }
+}
+
+@media screen {
+  .outputs {
+    display: none;
+  }
+}
