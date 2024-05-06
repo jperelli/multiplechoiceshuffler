@@ -213,7 +213,7 @@ export default function Home() {
           Generar Examenes / Imprimir
         </button>
       </div>
-      <div className="outputs" style={{ width: "50vw" }}>
+      <div className="outputs">
         {Array(testsCount)
           .fill(0)
           .map((_, i) => {
